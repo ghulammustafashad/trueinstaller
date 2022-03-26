@@ -1,6 +1,6 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Middleware;
+namespace ghulammustafashad\trueinstaller\Middleware;
 
 use Closure;
 use Redirect;
