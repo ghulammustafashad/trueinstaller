@@ -1,14 +1,14 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Controllers;
+namespace ghulammustafashad\trueinstaller\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Redirector;
 use Illuminate\Support\Facades\DB;
-use GhulamMustafaShad\TrueInstaller\Events\EnvironmentSaved;
-use GhulamMustafaShad\TrueInstaller\Helpers\EnvironmentManager;
+use ghulammustafashad\trueinstaller\Events\EnvironmentSaved;
+use ghulammustafashad\trueinstaller\Helpers\EnvironmentManager;
 use Validator;
 
 class EnvironmentController extends Controller
