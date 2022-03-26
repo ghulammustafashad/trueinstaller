@@ -1,9 +1,9 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Controllers;
+namespace ghulammustafashad\trueinstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use GhulamMustafaShad\TrueInstaller\Helpers\PermissionsChecker;
+use ghulammustafashad\trueinstaller\Helpers\PermissionsChecker;
 
 class PermissionsController extends Controller
 {
