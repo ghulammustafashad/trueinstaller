@@ -1,9 +1,9 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Controllers;
+namespace ghulammustafashad\trueinstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use RachidLaasri\LaravelInstaller\Helpers\DatabaseManager;
+use ghulammustafashad\trueinstaller\Helpers\DatabaseManager;
 
 class DatabaseController extends Controller
 {
