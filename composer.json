@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "GhulamMustafaShad\\TrueInstaller\\": "src/"
+            "ghulammustafashad\\trueinstaller\\": "src/"
         },
         "files": [
             "src/Helpers/functions.php"
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ghulamMustafaShad\\TrueInstaller\\Providers\\TrueInstallerServiceProvider"
+                "ghulamMustafaShad\\trueinstaller\\Providers\\TrueInstallerServiceProvider"
             ]
         }
     },
