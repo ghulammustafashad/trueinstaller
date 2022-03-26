@@ -1,6 +1,6 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Events;
+namespace ghulammustafashad\trueinstaller\Events;
 
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Foundation\Events\Dispatchable;
