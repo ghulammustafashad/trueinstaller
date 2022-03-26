@@ -1,14 +1,14 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Controllers;
+namespace ghulammustafashad\trueinstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use GhulamMustafaShad\TrueInstaller\Helpers\DatabaseManager;
-use GhulamMustafaShad\TrueInstaller\Helpers\InstalledFileManager;
+use ghulammustafashad\trueinstaller\Helpers\DatabaseManager;
+use ghulammustafashad\trueinstaller\Helpers\InstalledFileManager;
 
 class UpdateController extends Controller
 {
-    use \GhulamMustafaShad\TrueInstaller\Helpers\MigrationsHelper;
+    use \ghulammustafashad\trueinstaller\Helpers\MigrationsHelper;
 
     /**
      * Display the updater welcome page.
