@@ -1,6 +1,6 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Helpers;
+namespace ghulammustafashad\trueinstaller\Helpers;
 
 class InstalledFileManager
 {
