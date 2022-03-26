@@ -1,0 +1,34 @@
+{
+    "name": "ghulammustafashad/trueinstaller",
+    "description": "Laravel Application Installer",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ghulam Mustafa Shad",
+            "email": "ghulamshad@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GhulamMustafaShad\\TrueInstaller\\": "src/"
+        },
+        "files": [
+            "src/Helpers/functions.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ghulamMustafaShad\\TrueInstaller\\Providers\\TrueInstallerServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable"
+    
+}
