@@ -1,9 +1,9 @@
 <?php
 
-namespace GhulamMustafaShad\TrueInstaller\Controllers;
+namespace ghulammustafashad\trueinstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use GhulamMustafaShad\TrueInstaller\Helpers\RequirementsChecker;
+use ghulammustafashad\trueinstaller\Helpers\RequirementsChecker;
 
 class RequirementsController extends Controller
 {
