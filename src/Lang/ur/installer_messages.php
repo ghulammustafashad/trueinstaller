@@ -7,12 +7,12 @@ return [
      * Shared translations.
      *
      */
-    'title' => 'Laravel Installer',
-    'next' => 'Next Step',
-    'back' => 'Previous',
-    'finish' => 'Install',
+    'title' => 'حقیقی انسٹالر',
+    'next' => 'اگلا قدم',
+    'back' => 'پچھلا',
+    'finish' => 'انسٹال کریں۔',
     'forms' => [
-        'errorTitle' => 'The Following errors occurred:',
+        'errorTitle' => 'درج ذیل خرابیاں پیش آئیں:',
     ],
 
     /*
@@ -21,10 +21,10 @@ return [
      *
      */
     'welcome' => [
-        'templateTitle' => 'Welcome',
-        'title'   => 'Laravel Installer',
-        'message' => 'Easy Installation and Setup Wizard.',
-        'next'    => 'Check Requirements',
+        'templateTitle' => 'خوش آمدید',
+        'title'   => 'حقیقی انسٹالر',
+        'message' => 'آسان انسٹالیشن اور سیٹ اپ وزرڈ۔',
+        'next'    => 'تقاضے چیک کریں۔',
     ],
 
     /*
@@ -33,9 +33,9 @@ return [
      *
      */
     'requirements' => [
-        'templateTitle' => 'Step 1 | Server Requirements',
-        'title' => 'Server Requirements',
-        'next'    => 'Check Permissions',
+        'templateTitle' => 'مرحلہ 1 | سرور کی ضروریات',
+        'title' => 'سرور کی ضروریات',
+        'next'    => 'اجازتیں چیک کریں۔',
     ],
 
     /*
@@ -44,9 +44,9 @@ return [
      *
      */
     'permissions' => [
-        'templateTitle' => 'Step 2 | Permissions',
-        'title' => 'Permissions',
-        'next' => 'Configure Environment',
+        'templateTitle' => 'مرحلہ 2 | اجازتیں',
+        'title' => 'اجازتیں',
+        'next' => 'ماحول کو ترتیب دیں۔',
     ],
 
     /*
@@ -56,18 +56,18 @@ return [
      */
     'environment' => [
         'menu' => [
-            'templateTitle' => 'Step 3 | Environment Settings',
-            'title' => 'Environment Settings',
-            'desc' => 'Please select how you want to configure the apps <code>.env</code> file.',
-            'wizard-button' => 'Form Wizard Setup',
-            'classic-button' => 'Classic Text Editor',
+            'templateTitle' => 'مرحلہ 3 | ماحولیات کی ترتیبات',
+            'title' => 'ماحولیات کی ترتیبات',
+            'desc' => 'براہ کرم منتخب کریں کہ آپ ایپس <code>.env</code> فائل کو کس طرح ترتیب دینا چاہتے ہیں۔.',
+            'wizard-button' => 'فارم وزرڈ سیٹ اپ',
+            'classic-button' => 'کلاسک ٹیکسٹ ایڈیٹر',
         ],
         'wizard' => [
-            'templateTitle' => 'Step 3 | Environment Settings | Guided Wizard',
-            'title' => 'Guided <code>.env</code> Wizard',
+            'templateTitle' => 'مرحلہ 3 | ماحولیات کی ترتیبات | ہدایت یافتہ وزرڈ',
+            'title' => 'گائیڈڈ <code>.env</code> وزرڈ',
             'tabs' => [
-                'environment' => 'Environment',
-                'database' => 'Database',
+                'environment' => 'ماحولیات',
+                'database' => 'ڈیٹا بیس',
                 'application' => 'Application',
             ],
             'form' => [
