@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ghulammustafaShad\\trueinstaller\\Providers\\TrueInstallerServiceProvider"
+                "ghulammustafashad\\trueinstaller\\Providers\\TrueInstallerServiceProvider"
             ]
         }
     },
