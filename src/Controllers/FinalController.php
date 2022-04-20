@@ -3,7 +3,7 @@
 namespace ghulammustafashad\trueinstaller\Controllers;
 
 use Illuminate\Routing\Controller;
-use ghulammustafashad\trueinstaller\Events\LaravelInstallerFinished;
+use ghulammustafashad\trueinstaller\Events\TrueInstallerFinished;
 use ghulammustafashad\trueinstaller\Helpers\EnvironmentManager;
 use ghulammustafashad\trueinstaller\Helpers\FinalInstallManager;
 use ghulammustafashad\trueinstaller\Helpers\InstalledFileManager;
