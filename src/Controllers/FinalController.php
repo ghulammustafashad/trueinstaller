@@ -24,7 +24,7 @@ class FinalController extends Controller
         $finalStatusMessage = $fileManager->update();
         $finalEnvFile = $environment->getEnvContent();
 
-        event(new LaravelInstallerFinished);
+        event(new TrueInstallerFinished);
 
         return view('trueinstaller.finished', compact('finalMessages', 'finalStatusMessage', 'finalEnvFile'));
     }
