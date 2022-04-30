@@ -61,4 +61,20 @@ class TrueInstallerServiceProvider extends ServiceProvider
             __DIR__.'/../Lang' => base_path('resources/lang'),
         ], 'trueinstaller');
     }
+    /**
+     * Generate .env and redirect to '/install' or redirect directly to '/install'
+     *
+     * @return void
+     */
+    protected function checkProjectStatus()
+    {
+        if (empty($this->app->make('config')->get('app.key'))) {
+            WelcomeController::start();
+        } elseif ((empty($this->app->make('config')->get('database.connections.mysql.database'))
+                || $this->app->make('config')->get('database.connections.mysql.database') === 'homestead')
+            && !preg_match('/^' .preg_quote(url('/install'), '/g') . '/', url()->current())
+        ) {
+            redirect('/install')->send();
+        }
+    }
 }
