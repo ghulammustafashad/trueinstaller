@@ -28,10 +28,10 @@ class RequirementsController extends Controller
     public function requirements()
     {
         $phpSupportInfo = $this->requirements->checkPHPversion(
-            config('installer.core.minPhpVersion')
+            config('trueinstaller.core.minPhpVersion')
         );
         $requirements = $this->requirements->check(
-            config('installer.requirements')
+            config('trueinstaller.requirements')
         );
 
         return view('trueinstaller.requirements', compact('requirements', 'phpSupportInfo'));
