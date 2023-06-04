@@ -28,7 +28,7 @@ class PermissionsController extends Controller
     public function permissions()
     {
         $permissions = $this->permissions->check(
-            config('installer.permissions')
+            config('trueinstaller.permissions')
         );
 
         return view('trueinstaller.permissions', compact('permissions'));
